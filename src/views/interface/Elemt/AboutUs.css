@@ -1,0 +1,130 @@
+.AboutUs {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-left: 150px;
+    gap: 70px;
+    justify-content: center;
+    transform: translateY(-250px);
+    height: 1000px;
+    /* background-image: url(../img/BackgroundBubble-1.png); */
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+.inforAboutUs .Abu {
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    /* identical to box height, or 20px */
+
+
+    color: #FF64AE;
+}
+
+.IforButton {
+    margin-top: 400px;
+}
+
+.inforAboutUs .Abus {
+    /* position: absolute; */
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.11em;
+
+    color: #8B8B8B;
+}
+
+.inforAboutUs h1 {
+    /* position: absolute; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    /* or 45px */
+
+
+    color: #091156;
+}
+
+.ButtonG {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 44px;
+}
+
+.LearnBtn {
+
+    border-radius: 50px;
+    width: 158px;
+    height: 52px;
+    margin-left: 50px;
+    background: #FF64AE;
+    /* margin-top: 45px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.LearnBtn:hover {
+    background-color: #f8f3f3;
+    color: #FF64AE;
+    border: none;
+}
+
+.playBttn {
+    /* position: absolute; */
+    display: flex;
+    width: 213px;
+    height: 49px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #8B8B8B;
+    gap: 13px;
+}
+
+.box .Abu {
+    /* position: absolute; */
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    /* identical to box height, or 20px */
+
+
+    color: #FF64AE;
+}
+
+.trnah img {
+    margin-top: 400px;
+
+}

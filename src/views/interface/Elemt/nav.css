@@ -1,0 +1,80 @@
+.backGrimg {
+    width: 100%;
+    overflow: visible;
+    position: absolute;
+    z-index: -600;
+}
+
+.navbar img {
+    width: 258px;
+    height: 74px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 41px;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+    display: block;
+    color: #8B8B8B;
+    text-align: center;
+    margin-top: 59px;
+    letter-spacing: 1.55px;
+    text-decoration: none;
+}
+
+.navbar button.btnHbgIcn {
+    display: none;
+}
+
+.navbar ul {
+    padding: 0px;
+    gap: 42px;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar button.right {
+
+    border-radius: 50px;
+    width: 158px;
+    height: 52px;
+    margin-right: 133px;
+    background: #FF64AE;
+    margin-top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar button.right:hover {
+    background-color: #f8f3f3;
+    color: #FF64AE;
+    border: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border: none;
+}

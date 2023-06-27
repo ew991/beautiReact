@@ -1,0 +1,106 @@
+.conTact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.conTact .ttForm p {
+    color: #FF64AE;
+}
+
+.conTact .ttForm h1 {
+    color: #091156;
+}
+
+.conTact .ttForm h5 {
+    color: #8B8B8B;
+}
+
+.FormContra {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+
+
+}
+
+.FormContra input {
+
+    background: #FFFFFF;
+    border: 1px solid #D9DDFE;
+    border-radius: 15px;
+    outline: none;
+    max-width: 520px;
+    /* height: 61.58px; */
+    padding: 20px;
+
+
+}
+
+.FormContra input::placeholder {
+
+    color: #C5C5C5;
+
+
+}
+
+.FormContra input.LastName {
+    float: right;
+
+    /* width: 200px; */
+}
+
+.FormContra button {
+
+    width: 248px;
+    height: 58px;
+    background: #FF64AE;
+    box-shadow: 0px 17px 22px #FFEDF6;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    color: #FFFFFF;
+
+}
+
+.FormContra button:hover {
+    background-color: #f8f3f3;
+    color: #FF64AE;
+    border: none;
+}
+
+.FormContra textarea {
+    max-width: 520px;
+    resize: none;
+    height: 239.47px;
+    left: 770px;
+    top: 3861.68px;
+
+    background: #FFFFFF;
+    border: 1px solid #D9DDFE;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.FormContra textarea::placeholder {
+
+    color: #C5C5C5;
+
+
+}
+
+.ttForm {
+    margin-top: 140px;
+    margin-left: 200px;
+
+}
+
+.FormContra .FnLName {
+    display: flex;
+    gap: 20px;
+}
