@@ -6,7 +6,7 @@ import AboutUs_ from "./Elemt/AboutUs";
 import ProfsTeam_ from "./Elemt/ProfsTeam";
 import ConTact_ from "./Elemt/ConTact";
 import SiteFooter_ from "./Elemt/SiteFooter";
-import './home1.css'
+import './home1.css';
 class Home_1 extends React.Component {
     render() {
         return (

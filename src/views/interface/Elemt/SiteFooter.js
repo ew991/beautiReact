@@ -2,33 +2,35 @@ import React from "react";
 import './SiteFooter.css';
 import Logo from '../../../assest/img/Footer Logo.png';
 import footerBg from '../../../assest/img/FooterBG.png';
-import buttonToTopBG from '../../../assest/img/ToTopButton.png'
+import buttonToTopBG from '../../../assest/img/ToTopButton.png';
+import bottomFooterBG from '../../../assest/img/BottomBG.png'
+// import './respon.css';
 class SiteFooter_ extends React.Component {
 
     render() {
         return (
             <>
-                <div className="SiteFooter" style={{ backgroundImage: `url(${footerBg})` }}>
-                    <div className="logoim" >
-                        <div className="trais">
+                <div className="SiteFooter mt-20" style={{ backgroundImage: `url(${footerBg})` }}>
+                    <div className="logoim w-[1200px]" >
+                        <div className="trais ">
                             <img src={Logo} alt="" />
-                            <p><strong>Beautice </strong> is a Beauty Clinic WordPress Theme.</p>
-                            <p>Baker Steet 101, NY, United States.</p>
-                            <span style={{ marginRight: '20px' }} >+521 569 8966.</span>
-                            <span>mail@company.com. </span>
+                            <p className=" mt-9 ml-7 tracking-wides w-[460px] italic"><strong>Beautice </strong>is a Beauty Clinic WordPress Theme.</p>
+                            <p className=" ml-7 mt-7 italic">Baker Steet 101, NY, United States.</p>
+                            <span className=" ml-7 italic" style={{ marginRight: '20px' }} >+521 569 8966.</span>
+                            <span className=" underline decoration-slice italic">mail@company.com. </span>
                         </div>
 
                         <div className="w3-a" style={{ width: '25%' }} >
-                            <h3>Page</h3>
+                            <h3 className=" text-lg">Page</h3>
                             <li> <a href="#">Home</a></li>
                             <li> <a href="#About">About</a></li>
                             <li> <a href="#Service">Services</a></li>
                             <li> <a href="#Gallery">Gallery</a></li>
                             <li> <a href="#Blog">Team</a></li>
                         </div>
-                        <div className="w3-a">
-                            <h3>Informations</h3>
-                            <li> <a href="#">Terms & conditions</a></li>
+                        <div className="w3-a  ">
+                            <h3 className=" text-lg">Informations</h3>
+                            <li > <a href="#">Terms & conditions</a></li>
                             <li> <a href="#">Privacy policy</a></li>
                             <li> <a href="#Blog">Blog</a></li>
                             <li> <a style={{ cursor: 'pointer' }} onclick="hanDleOnClickBtnK()">Contact</a></li>
@@ -36,7 +38,7 @@ class SiteFooter_ extends React.Component {
                     </div>
 
                     <div className="iconContact">
-                        <div className="icn">
+                        <div className="icn mt-36">
                             <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M13.3174 15.6593L14.0117 10.6212H9.67041V7.35173C9.67041 5.97339 10.2769 4.62984 12.2212 4.62984H14.1948V0.340373C14.1948 0.340373 12.4038 0 10.6914 0C7.11621 0 4.7793 2.41306 4.7793 6.78136V10.6212H0.805176V15.6593H4.7793V27.8388H9.67041V15.6593H13.3174Z"
@@ -63,7 +65,7 @@ class SiteFooter_ extends React.Component {
                                     fill="white" />
                             </svg>
                         </div>
-                        <div className="hreff">
+                        <div className="hreff mt-36 ">
                             <p>© AltDesain Studio 2021 - All right reserved.</p>
                         </div>
 
@@ -71,7 +73,7 @@ class SiteFooter_ extends React.Component {
                     <div className="BtnTotop" onclick="hanDleOnClickBtn()">
                         <button style={{ backgroundImage: `url(${buttonToTopBG})` }} ></button>
                     </div>
-
+                    <img className=" absolute bottom-0 left-0 -z-30" src={bottomFooterBG} />
                 </div>
             </>
         )

@@ -1,7 +1,8 @@
 import React from "react";
 import './AboutUs.css';
 import unplash from '../../../assest/img/unsplash_LRXYS0tSyGc.png';
-import Bgimg from '../../../assest/img/BackgroundBubble-1.png'
+import Bgimg from '../../../assest/img/BackgroundBubble-1.png';
+// import './respon.css';
 class AboutUs_ extends React.Component {
     render() {
         return (
@@ -10,8 +11,8 @@ class AboutUs_ extends React.Component {
                     <div className="IforButton">
                         <div className="inforAboutUs" id="About">
                             <p className="Abu">About Us</p>
-                            <h1>We are the best beauty clinic</h1>
-                            <p className="Abus">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Elit, quam suscipit purus
+                            <h1 className=" mt-6">We are the best beauty clinic</h1>
+                            <p className="Abus mt-7">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Elit, quam suscipit purus
                                 donec<br />
                                 amet.
                                 Egestas volutpat facilisi eu libero. Nunc,<br /> ipsum ornare mauris sit quam quis enim. Varius<br />
@@ -23,8 +24,8 @@ class AboutUs_ extends React.Component {
                             </p>
 
                         </div>
-                        <div className="ButtonG">
-                            <button className="LearnBtn">Learn More</button>
+                        <div className="ButtonG mt-12">
+                            <button className="LearnBtn w-52 h-16 tracking-[1.6px]">Learn More</button>
                             <button className="playBttn">
                                 <svg width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24.5" cy="24.9382" r="24.5" fill="#091156" />

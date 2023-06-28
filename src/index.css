@@ -1,16 +1,13 @@
-* {
-  color: #D7DBFF;
-  font-family: 'Poppins';
-  font-style: normal;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   /* position: absolute;
   width: 100%; */
-
   margin: 0;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

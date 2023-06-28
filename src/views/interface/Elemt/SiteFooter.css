@@ -1,6 +1,6 @@
 .SiteFooter {
     background-repeat: no-repeat;
-    height: 540px;
+    height: 700px;
     position: relative;
 
 }
@@ -8,8 +8,8 @@
 .SiteFooter .logoim {
     display: flex;
     position: absolute;
-    left: 180px;
-    top: 180px;
+    left: 150px;
+    top: 240px;
     width: 995px;
 }
 
@@ -19,6 +19,12 @@
     margin-left: 100px;
     color: #D7DBFF;
 }
+
+.w3-a li {
+    margin-top: 15px;
+    width: 215px;
+}
+
 
 .iconContact {
     display: flex;
@@ -46,8 +52,8 @@
 .BtnTotop button {
     display: flex;
     position: absolute;
-    top: 380px;
-    left: 1300px;
+    top: 500px;
+    left: 1325px;
     height: 36px;
     width: 36px;
     border: none;

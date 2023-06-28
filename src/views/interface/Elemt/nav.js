@@ -1,7 +1,7 @@
 import React from "react";
 import Hinh from '../../../assest/img/Main Logo.svg';
 import bg from '../../../assest/img/Slide Background.png';
-
+// import './respon.css';
 import './nav.css';
 class Nav_ extends React.Component {
     render() {
@@ -15,7 +15,7 @@ class Nav_ extends React.Component {
                     <button className="btnHbgIcn" onclick="showMn()"><i className="bx bx-menu" id="hamberGicn"></i></button>
                     <ul id="sElm">
                         <li>
-                            <a id="fchi" href="#" style={{ color: '#414880' }} >Home&nbsp;+</a>
+                            <a id="fchi" href="#" style={{ color: '#414880', fontWeight: '600' }} >Home&nbsp;+</a>
                         </li>
                         <li>
 

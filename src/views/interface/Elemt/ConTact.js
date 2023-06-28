@@ -1,18 +1,20 @@
 import React from "react";
 import './ConTact.css';
-import imgContact from '../../../assest/img/Contact Animations.png'
-import ConTactBg from '../../../assest/img/Bgbb3.png'
+import imgContact from '../../../assest/img/Contact Animations.png';
+import ConTactBg from '../../../assest/img/Bgbb3.png';
+// import './respon.css';
 class ConTact_ extends React.Component {
     render() {
         return (
             <>
-                <div className="conTact" style={{ backgroundImage: `url(${ConTactBg})` }}>
+                <div className="conTact " style={{ backgroundImage: `url(${ConTactBg})` }}>
+
                     <img className="imgContact" src={imgContact} alt="img" />
                     <div className="ttForm" id="Contact">
-                        <p>Contact Us</p>
-                        <h1>Send your inquiry to<br />
+                        <p className=" text-base leading-relaxed font-semibold mb-3">Contact Us</p>
+                        <h1 className=" text-4xl font-semibold leading-snug mb-7">Send your inquiry to<br />
                             our expert team</h1>
-                        <h5>Lorem ipsum dolor sit amet nulla turapis tellus.
+                        <h5 className="text-base mb-10 font-light">Lorem ipsum dolor sit amet nulla turapis tellus.
                         </h5>
                         <form className="FormContra">
                             <div className="FnLName">

@@ -1,0 +1,481 @@
+/* Kích cỡ màn hình dưới 600px */
+@media only screen and (max-width: 600px) {
+
+
+    .navbar button.btnHbgIcn {
+        display: block;
+        width: 90px;
+        height: 45px;
+        margin-right: 30px;
+        border-radius: 15px;
+        border: none;
+        background-color: #FF64AE;
+    }
+
+    #hamberGicn {
+        font-size: 40px;
+        color: #091156;
+    }
+
+    .navbar button:hover {
+
+        background-color: #f8f3f3;
+    }
+
+    /* #btnHbgIcn {
+        display: block;
+    } */
+
+    .navbar ul {
+        top: 100px;
+        right: 0px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        box-shadow: -22px 20px 30px 0px #9598b1;
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 80px;
+    }
+
+    .navbar ul li {
+        width: 100%;
+    }
+
+    .navbar ul li a:hover {
+        background-color: #ff9dbe;
+    }
+
+    .navbar a {
+        float: none;
+        color: #8B8B8B;
+        text-align: center;
+        padding: 24px 0;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .navbar button.right {
+        float: none;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 45%;
+    }
+
+    /* .navbar button.right {
+        display: none;
+    } */
+    ul.showlNav {
+        display: flex;
+        width: 100%;
+        /* display: block; */
+        background-color: #fcfcff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SiteFooter {
+        width: 1268px;
+    }
+
+    .navbar {
+        gap: 225px;
+        display: flex;
+        width: 10000px;
+    }
+
+
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .block2 {
+
+        flex-direction: column-reverse;
+        margin-left: 290px;
+    }
+
+    .block2 .txt h1 {
+        font-size: 52px;
+    }
+
+    .block2 .txt {
+        font-size: 24px;
+    }
+
+    .block2 button {
+        float: none;
+        align-items: center;
+        width: 200px;
+        height: 65px;
+    }
+
+    .block2 img {
+
+        width: 650px;
+        margin-left: 0px;
+    }
+
+    .block2 .txt h1 {
+        width: 700px;
+    }
+
+    .block2 .txt {
+        margin-left: -40px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .AboutUs {
+        flex-direction: column-reverse;
+        margin-left: 115px;
+        transform: translateY(0px);
+        gap: 0px;
+        margin-top: 150px;
+    }
+
+    .trnah img {
+        margin-top: 0px;
+        width: 900px;
+        height: 600px;
+    }
+
+    .icn {
+        gap: 20px;
+    }
+
+    .IforButton {
+        margin-top: 0px;
+    }
+
+    .TitleDesc {
+        margin-left: 55px;
+    }
+
+    .inforAboutUs .Abu {
+        font-size: 44px;
+        line-height: 0%;
+        text-align: center;
+    }
+
+    .inforAboutUs .Abus {
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .inforAboutUs h1 {
+        text-align: center;
+    }
+
+    .ProfenlTem {
+        margin-top: 350px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box div:not(.contarct) {
+        margin-left: 220px;
+        margin-top: 40px;
+        width: 700px;
+        height: 725px;
+    }
+
+    .box .Abu {
+        font-size: 35px;
+    }
+
+    .box h1.name_ser {
+        font-size: 30px;
+
+    }
+
+    .box p.infser {
+        font-size: 26px;
+        line-height: 40px;
+
+    }
+
+    .box img {
+        width: 200px;
+    }
+
+    .ButtonG {
+        justify-content: center;
+
+    }
+
+
+    .TitleDesc div.tt1 {
+        font-size: 44px;
+
+    }
+
+    .TitleDesc p {
+
+        font-size: 26px;
+
+    }
+
+    .conTact {
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+
+    .ttForm {
+        width: 1000px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .conTact .ttForm h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .conTact .ttForm p {
+        margin: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .FormContra {
+        max-width: 100%;
+    }
+
+    .FormContra input {
+        margin: 0 80px;
+        max-width: 100%;
+
+    }
+
+    .FormContra textarea {
+        margin: 0 80px;
+        max-width: 100%;
+    }
+
+    .conTact .ttForm h5 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .FormContra .sendM {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .FormContra button {
+        width: 282px;
+        height: 94px;
+        font-size: 26px;
+    }
+
+    .slideBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 565px;
+    }
+
+    .SiteFooter .logoim {
+        left: 125px;
+        top: 165px;
+
+    }
+
+    .iconContact {
+        left: 155px;
+        top: 422px;
+    }
+
+    .BtnTotop button {
+        top: 350px;
+        left: 1080px;
+    }
+
+}
+
+/* Kích cỡ màn hình từ 601px đến 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    /* Điều chỉnh các phần tử cho kích cỡ màn hình từ 601px đến 900px ở đây */
+
+    .block2 .txt h1 {
+        width: 500px;
+        font-size: 56px;
+        line-height: 54px;
+    }
+
+    .block2 button {
+        width: 180px;
+        height: 70px;
+    }
+
+    .block2 img {
+        margin-left: -18px;
+    }
+
+    .slideBtn {
+        margin-left: 0px;
+    }
+
+    .box h1.name_ser {
+
+        font-size: 25px;
+    }
+
+    .box p.infser {
+        font-size: 17px;
+    }
+
+    .CoreService {
+        margin-left: 0px;
+    }
+
+    .ProfenlTem {
+        margin-left: 80px;
+    }
+
+    .ButtonG {
+        margin-top: 25px;
+    }
+
+    .conTact {
+        flex-direction: row-reverse;
+    }
+
+    .navbar a {
+        font-size: 25px;
+    }
+
+    .navbar img {
+        margin-right: 5px;
+    }
+
+    .navbar button.right {
+
+        font-size: 20px;
+        padding: 15px;
+        margin-left: -4px;
+    }
+
+    .navbar ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .conTact .ttForm p {
+        font-size: 30px;
+    }
+
+    .TitleDesc div.tt1 {
+        font-size: 25px;
+
+    }
+
+    .BtnTotop button {
+        left: 1220px;
+    }
+
+
+}
+
+/* Kích cỡ màn hình từ 901px đến 1200px */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+
+    /* Điều chỉnh các phần tử cho kích cỡ màn hình từ 901px đến 1200px ở đây */
+
+
+    .block2 {
+        margin-left: 0px;
+    }
+
+    .AboutUs {
+        gap: 1px;
+    }
+
+    .trnah img {
+        width: 500px;
+    }
+
+    .slideBtn {
+        margin-left: 600px;
+    }
+
+    .block2 img {
+        width: 58%;
+        margin-left: 10px;
+    }
+
+    .block2 .txt h1 {
+        width: 280px;
+        font-size: 32px;
+    }
+
+    .block2 .txt {
+        margin-left: 150px;
+    }
+
+    .hreff {
+        width: 350px;
+        color: #D7DBFF;
+    }
+
+    .w3-a {
+        margin-left: 140px;
+    }
+
+    .iconContact {
+        gap: 385px;
+
+    }
+
+    .SiteFooter {
+        width: 1250px;
+        height: 540px;
+    }
+
+    .navbar img {
+        margin-left: 70px;
+        margin-right: 80px;
+    }
+
+    .ProfenlTem {
+        margin-left: 70px;
+    }
+
+    .CoreService {
+        margin-left: 70px;
+    }
+
+    .BtnTotop button {
+        left: 1180px;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1399px) {
+    .BtnTotop button {
+        left: 1245px;
+    }
+
+
+}
