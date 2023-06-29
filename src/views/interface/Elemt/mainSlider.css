@@ -11,7 +11,7 @@
     font-style: normal;
     width: 472px;
     color: #091156;
-    margin-left: 79px;
+    /* margin-left: 79px; */
 }
 
 .block2 .txt p {
@@ -24,18 +24,12 @@
 
 .block2 .txt h1 {
     color: #091156;
-    font-size: 48px;
     line-height: 55px;
     margin-bottom: 4px;
     margin-top: 4px;
     letter-spacing: 1.4px;
 }
 
-.block2 img {
-    margin-left: 20px;
-    margin-top: 24px;
-
-}
 
 .block2 button {
     float: left;

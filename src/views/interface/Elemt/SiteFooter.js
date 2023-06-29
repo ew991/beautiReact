@@ -3,16 +3,17 @@ import './SiteFooter.css';
 import Logo from '../../../assest/img/Footer Logo.png';
 import footerBg from '../../../assest/img/FooterBG.png';
 import buttonToTopBG from '../../../assest/img/ToTopButton.png';
-import bottomFooterBG from '../../../assest/img/BottomBG.png'
+import bottomFooterBG from '../../../assest/img/BottomBG.png';
 // import './respon.css';
 class SiteFooter_ extends React.Component {
 
     render() {
         return (
             <>
-                <div className="SiteFooter mt-20" style={{ backgroundImage: `url(${footerBg})` }}>
+                <div className="SiteFooter mt-20" >
+                    <image className=" absolute" src={footerBg} />
                     <div className="logoim w-[1200px]" >
-                        <div className="trais ">
+                        <div className="trais text-[#D7DBFF] font-medium ">
                             <img src={Logo} alt="" />
                             <p className=" mt-9 ml-7 tracking-wides w-[460px] italic"><strong>Beautice </strong>is a Beauty Clinic WordPress Theme.</p>
                             <p className=" ml-7 mt-7 italic">Baker Steet 101, NY, United States.</p>
@@ -70,7 +71,9 @@ class SiteFooter_ extends React.Component {
                         </div>
 
                     </div>
-                    <div className="BtnTotop" onclick="hanDleOnClickBtn()">
+                    <div className="BtnTotop sm" onClick={() => {
+                        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                    }}>
                         <button style={{ backgroundImage: `url(${buttonToTopBG})` }} ></button>
                     </div>
                     <img className=" absolute bottom-0 left-0 -z-30" src={bottomFooterBG} />

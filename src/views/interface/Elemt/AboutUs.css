@@ -1,9 +1,4 @@
 .AboutUs {
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: top left;
-    margin-left: 150px;
-    gap: 70px;
     justify-content: center;
     transform: translateY(-250px);
     height: 1000px;
@@ -20,7 +15,6 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
     line-height: 125%;
     /* identical to box height, or 20px */
 
@@ -53,7 +47,8 @@
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 125%;
+    line-height: 45px;
+    letter-spacing: 0px;
     /* or 45px */
 
 
@@ -63,7 +58,6 @@
 .ButtonG {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .LearnBtn {

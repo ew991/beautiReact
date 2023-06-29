@@ -8,7 +8,6 @@
 .TitleDesc div.tt1 {
     color: #FF64AE;
     font-weight: 600;
-    font-size: 16px;
     line-height: 125%;
 }
 
@@ -29,9 +28,4 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.1em;
-}
-
-.marh {
-    width: 424px;
-    height: 626px;
 }

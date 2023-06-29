@@ -11,12 +11,12 @@ class Home_1 extends React.Component {
     render() {
         return (
             <>
-                <Nav_ />
+                {/* <Nav_ />
                 <MainSlider_ />
                 <CoreService_ />
                 <AboutUs_ />
                 <ProfsTeam_ />
-                <ConTact_ />
+                <ConTact_ /> */}
                 <SiteFooter_ />
             </>)
     }

@@ -7,26 +7,32 @@ class AboutUs_ extends React.Component {
     render() {
         return (
             <>
-                <div className="AboutUs" style={{ backgroundImage: `url(${Bgimg})` }}>
-                    <div className="IforButton">
-                        <div className="inforAboutUs" id="About">
-                            <p className="Abu">About Us</p>
+                <div className="AboutUs flex gap-[50px] " style={{ backgroundImage: `url(${Bgimg})` }}>
+                    <div className="IforButton ml-[10.5%] max-lg:col-span-2 ">
+                        <div className="inforAboutUs " id="About">
+                            <p className="Abu text-[16px] max-sm:text-[24px]">About Us</p>
                             <h1 className=" mt-6">We are the best beauty clinic</h1>
-                            <p className="Abus mt-7">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Elit, quam suscipit purus
-                                donec<br />
-                                amet.
-                                Egestas volutpat facilisi eu libero. Nunc,<br /> ipsum ornare mauris sit quam quis enim. Varius<br />
-                                tellus in
-                                suspendisse placerat.<br />
-                                <br />
+                            <div className=" max-lg:grid max-lg:grid-cols-3 max-sm:flex max-sm:flex-col-reverse" >
+                                <p className="Abus mt-7 max-lg:col-span-2 max-lg:row-span-2 max-w-[500px] ">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Elit, quam suscipit purus
+                                    donec
+                                    amet.
+                                    Egestas volutpat facilisi eu libero. Nunc,  ipsum ornare mauris sit quam quis enim. Varius
+                                    tellus in
+                                    suspendisse placerat.<br />
+                                    <br />
 
-                                Id dui erat sed quam tellus in purus. Pellentesque<br /> congue fringilla cras tellus enim.
-                            </p>
+                                    <p className="max-lg:hidden max-sm:block ">Id dui erat sed quam tellus in purus. Pellentesque  congue fringilla cras tellus enim.</p>
+                                </p>
+
+                                <img className=" hidden max-lg:flex max-lg:col-span-1 max-lg:row-span-2 max-lg:h-auto max-sm:flex" src={unplash} />
+                                <p className="hidden max-lg:block max-lg:col-span-3 text-[#8B8B8B] max-sm:hidden">Id dui erat sed quam tellus in purus. Pellentesque  congue fringilla cras tellus enim.</p>
+                            </div>
+
 
                         </div>
                         <div className="ButtonG mt-12">
-                            <button className="LearnBtn w-52 h-16 tracking-[1.6px]">Learn More</button>
-                            <button className="playBttn">
+                            <button className="LearnBtn w-52 h-16 tracking-[1.6px] mr-10">Learn More</button>
+                            <button className="playBttn ">
                                 <svg width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24.5" cy="24.9382" r="24.5" fill="#091156" />
                                     <path
@@ -38,7 +44,7 @@ class AboutUs_ extends React.Component {
 
                     </div>
                     <div className="trnah">
-                        <img src={unplash} alt="" />
+                        <img className=" max-lg:hidden" src={unplash} alt="" />
 
                     </div>
 

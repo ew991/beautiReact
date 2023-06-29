@@ -11,7 +11,7 @@ class ProfsTeam_ extends React.Component {
     render() {
         return (
             <>
-                <div className="ProfenlTem">
+                <div className="ProfenlTem max-2xl:mt-[-275px] max-lg:mt-[-250px]  max-md:mt-[-250px] max-sm:mt-[150px]">
                     <div className="TitleDesc">
                         <div className="tt1" id="Blog">
                             Professional Teams
@@ -23,8 +23,8 @@ class ProfsTeam_ extends React.Component {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
                         </p>
                     </div>
-                    <div className="box ">
-                        <div className="BoxLeft marh">
+                    <div className="box lg:mx-[150px]  flex max-lg:grid max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
+                        <div className="BoxLeft lg:w-[424px] lg:h-[626px]  max-lg:w-full max-lg:h-[626px] ">
                             <img src={unsplash1} alt="Animation1" />
                             <p className="Abu">Surgeon</p>
                             <h1 className="name_ser mt-4">Briyan Nevalli</h1>
@@ -36,7 +36,7 @@ class ProfsTeam_ extends React.Component {
                                 <img src={instagram} alt="Itg" />
                             </div>
                         </div>
-                        <div className="BoxMid marh">
+                        <div className="BoxMid lg:w-[424px] lg:h-[626px]  max-lg:w-full max-lg:h-[626px] bg-[#FFFFFF] ">
                             <img src={unsplash2} alt="Animation2" />
                             <p className="Abu">Dermatologist</p>
                             <h1 className="name_ser mt-4">Bella sebastian</h1>
@@ -48,7 +48,7 @@ class ProfsTeam_ extends React.Component {
                                 <img src={instagram} alt="Itg" />
                             </div>
                         </div>
-                        <div className="BoxRight marh">
+                        <div className="BoxRight lg:w-[424px] lg:h-[626px]  max-lg:w-full max-lg:h-[626px] max-lg:col-span-2">
                             <img src={unsplash3} alt="Animation3" />
                             <p className="Abu">Stylist expert</p>
                             <h1 className="name_ser mt-4">Lilly Adams</h1>
