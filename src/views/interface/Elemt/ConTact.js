@@ -7,7 +7,7 @@ class ConTact_ extends React.Component {
     render() {
         return (
             <>
-                <div className="conTact  " style={{ backgroundImage: `url(${ConTactBg})` }}>
+                <div className="conTact mb-[70px] max-lg:flex-col-reverse " style={{ backgroundImage: `url(${ConTactBg})` }}>
 
                     <img className="imgContact max-md:hidden" src={imgContact} alt="img" />
                     <div className="ttForm mt-[140px] ml-[100px] max-lg:ml-0" id="Contact">

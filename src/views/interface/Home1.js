@@ -5,19 +5,19 @@ import CoreService_ from "./Elemt/CoreService";
 import AboutUs_ from "./Elemt/AboutUs";
 import ProfsTeam_ from "./Elemt/ProfsTeam";
 import ConTact_ from "./Elemt/ConTact";
-import SiteFooter_ from "./Elemt/SiteFooter";
+import Footer from "./Elemt/Footer";
 import './home1.css';
 class Home_1 extends React.Component {
     render() {
         return (
             <>
-                {/* <Nav_ />
+                <Nav_ />
                 <MainSlider_ />
                 <CoreService_ />
                 <AboutUs_ />
                 <ProfsTeam_ />
-                <ConTact_ /> */}
-                <SiteFooter_ />
+                <ConTact_ />
+                <Footer />
             </>)
     }
 }

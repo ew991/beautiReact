@@ -70,7 +70,7 @@ export default function Example() {
         <>
             <img className='  absolute -z-30 top-0' src={bg} />
 
-            <Navbar className="sticky top z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 mt-[25px]">
+            <Navbar className="sticky top z-10 h-max max-w-full bg-inherit rounded-none py-2 px-4 lg:px-8 lg:py-4 mt-[25px]">
 
 
                 <div className=" flex items-center justify-between ">
